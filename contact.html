@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Avery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <div id="navigation">
+        <div id="nav-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="credentials.html">Credentials</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!--Contact Me-->
+    <section id="contact-me">
+        <h1>Send a Message</h1>
+        <p><i>You will hear from me at the earliest!</i></p>
+        <form action="submit">
+            <label for="user-name">Name</label><br>
+            <input type="text" name="user-name" id="user-name"><br>
+            <label for="user-email">Email</label><br>
+            <input type="email" name="user-email" id="user-email"><br>
+            <label for="con-num">Contact Number</label><br>
+            <input type="tel" name="con-num" id="con-num"><br>
+            <label for="msg">Message</label><br>
+            <textarea name="msg" id="msg"></textarea><br>
+            <fieldset id="reason">
+                <legend>Select whatever applies:</legend>
+                <input type="checkbox" name="inquiry" id="inquiry" value="1">
+                <label for="inquiry">Inquiry</label><br>
+                <input type="checkbox" name="appointment" id="appointment" value="2">
+                <label for="appointment">For Appointment</label><br>
+                <input type="checkbox" name="customer-sup" id="customer-sup" value="3">
+                <label for="customer-sup">Customer Support</label><br>
+                <input type="checkbox" name="feedback" id="feedback" value="4">
+                <label for="feedback">Feedback</label>
+            </fieldset>
+            <fieldset id="inquire">
+                <legend>What can we do for you?</legend>
+                <input type="radio" name="r1" id="r1" value="1">
+                <label for="r1">Grammarian</label><br>
+                <input type="radio" name="r2" id="r2" value="2">
+                <label for="r2">Photo Editor</label><br>
+                <input type="radio" name="r3" id="r3" value="3">
+                <label for="r3">Designer</label><br>
+                <input type="radio" name="r4" id="r4" value="4">
+                <label for="r4">Tutor</label><br>
+                <input type="radio" name="r5" id="r5" value="5">
+                <label for="r5">Art Commission</label>
+            </fieldset><br>
+            <div id="form-buttons">
+                <button type="submit">Send</button>
+                <button type="reset">Redo</button>
+            </div>
+    </section>
+</body>
+
+</html>
